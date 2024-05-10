@@ -1,0 +1,52 @@
+.app-container{
+    width: 400px;
+}
+.letter {
+    background: white;
+    border: 1px solid grey;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+.flex{
+    display: flex;
+}
+.letter-button {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: 3px;
+    margin-top: 3px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+    outline: none;
+    border: 1px solid black;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 0.9s ease-in-out;
+}
+.letter-button:hover{
+    background-color: rgb(160, 160, 160);
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.guessed{
+    display: none;
+}
+.hidden{
+    display: none;
+}
